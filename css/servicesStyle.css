@@ -8,6 +8,7 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	font-style: normal;
+	height: 100%;
 	font-weight: 200;
 }
 /* Container */
@@ -19,7 +20,6 @@ body {
 	height: auto;
 	background-color: #2D9AB7;
 	background-image: url(../images/parallax.png);
-
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -66,7 +66,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #717070;
 }
 .home_header {
 	color: #FFFFFF;
@@ -80,25 +80,14 @@ ul li:hover a {
 /* Home Section */
 .home {
 	background-color: #B3B3B3;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.light {
-	font-weight: bold;
-	color: #717070;
-}
-.tagline {
-	text-align: center;
-	color: #FFFFFF;
-	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 .marquee{
   width: 100%;
   height: 30px;
   background-color:#4A96DD;
+  color: white;
   overflow: hidden;
   border:1px solid #ccc;
 }
@@ -112,25 +101,6 @@ ul li:hover a {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* Services Section */
-.text_column {
-	width: 29%;
-	text-align: justify;
-	font-weight: lighter;
-	line-height: 25px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #A3A3A3;
-}
-.services {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 35px;
-	display: inline-block;
-	background-color: #FFFFFF;
-	margin-top: 0px;
-}
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
@@ -142,35 +112,18 @@ ul li:hover a {
 }
 .parallax {
 	color: #FFFFFF;
-	text-align: right;
-	padding-right: 100px;
-	padding-top: 110px;
+	text-align: center;
+	padding-right: 0px;
+	padding-top: 0px;
 	letter-spacing: 2px;
 	margin-top: 0px;
-}
-#floatRight {
-	float: right;
-}
-.parallax_description {
-	color: #FFFFFF;
-	text-align: right;
-	padding-right: 20px;
-	padding-left: 20px;
-	width: 40%;
-	font-weight: lighter;
-	line-height: 23px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-#aboutUsImage {
-	margin-left: 100px;
+	font-size: 3vw;
+	border-bottom: 2px solid white;
 }
 /* More info */
 footer {
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
+	padding-bottom: 0px;
 }
 .footer_column {
 	width: 50%;
@@ -185,67 +138,6 @@ footer .footer_column h3 {
 footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
-}
-
-#formHeading {
-	text-align: center;
-	color: #4A96DD;
-	margin-top: 0px;
-	font-size: 2vw;
-	width: 100%;
-}
-#name #email #reason {
-	width: 100%;
-}
-#contact{
-	width: 40%;
-	background-color: #B3B3B3;
-	font-size: 1.5vw;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 5px;
-}
-#submit {
-	padding-bottom: 5px;
-}
-
-/* Captcha Section */
-
-.capbox {
-	background-color: #52bad5;
-	border: #4A96DD 0px solid;
-	border-width: 0px 10px 0px 10px;
-	display: inline-block;
-	*display: inline; zoom: 1; /* FOR IE7-8 */
-	padding: 8px 40px 8px 40px;
-	}
-
-.capbox-inner {
-	font: bold 11px arial, sans-serif;
-	color: #000000;
-	background-color: #52bad5;
-	margin: 5px auto 0px auto;
-	padding: 3px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	}
-
-#CaptchaDiv {
-	font: bold 17px verdana, arial, sans-serif;
-	font-style: italic;
-	color: #000000;
-	background-color: #FFFFFF;
-	padding: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	}
-
-#CaptchaInput { 
-	margin: 1px 0px 1px 0px; 
-	width: 135px;
 }
 .button {
 	width: 200px;
@@ -286,7 +178,7 @@ footer .footer_column p {
 .footer_banner {
 	background-color: #B3B3B3;
 	padding-top: 60px;
-	padding-bottom: 60PX;
+	padding-bottom: 60px;
 	margin-top: 60px;
 	margin-bottom: 0px;
 	background-image: url(../images/pattern.png);

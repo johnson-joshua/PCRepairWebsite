@@ -16,8 +16,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
-	height: 1400px;
-	background-color: #717070;
+	height: auto;
+	background-color: #2D9AB7;
+	background-image: url(../images/parallax.png);
+
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 /* Navigation */
 header {
@@ -61,7 +66,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #717070;
 }
 .home_header {
 	color: #FFFFFF;
@@ -75,8 +80,8 @@ ul li:hover a {
 /* Home Section */
 .home {
 	background-color: #B3B3B3;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 .light {
 	font-weight: bold;
@@ -94,6 +99,7 @@ ul li:hover a {
   width: 100%;
   height: 30px;
   background-color:#4A96DD;
+  color: white;
   overflow: hidden;
   border:1px solid #ccc;
 }
